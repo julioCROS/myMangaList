@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <title>MyMangaList.net - Manga Database Community</title>
+    <title>MyMangaList.net - Personal Manga Database</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="src/styles/index.css">
   </head>
