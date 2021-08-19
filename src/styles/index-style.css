@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "AGRevue";
+  src: url("../fonts/AGRevueCyr-Roman-Medium.ttf");
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  display: inline-flex;
+}
+
+.body {
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  width: 1100px;
+}
+
+.horizontalSpace {
+  width: 400px;
+  height: 100%;
+}
+
+.menuTop {
+  text-align: center;
+  display: inline-flex;
+  width: 1100px;
+  margin-top: -10px;
+}
+
+.title {
+  margin-left: 20px;
+  font-size: 28px;
+  color: #2e51a2;
+  font-family: "AGRevue";
+}
+
+.loginBtn {
+  border: #2e51a2 2px solid;
+  border-radius: 2px;
+  margin: auto;
+  font-weight: 700;
+  text-align: center;
+  font-family: Avenir, lucida grande, tahoma, verdana, arial, sans-serif;
+  font-size: 15px;
+  border-style: solid;
+  margin-left: 700px;
+  width: 92px;
+  color: rgb(57, 75, 180);
+  border-color: #1d439b;
+  height: 22px;
+}
+
+.signUpBtn {
+  border: #2e51a2 2px solid;
+  border-radius: 2px;
+  margin: auto;
+  font-weight: 700;
+  text-align: center;
+  font-family: Avenir, lucida grande, tahoma, verdana, arial, sans-serif;
+  font-size: 14px;
+  border-style: solid;
+  margin-left: 3px;
+  width: 92px;
+  background-color: #1d439b;
+  color: white;
+  height: 22px;
+}
+
+.textBtn1 {
+  margin-top: 2px;
+}
+
+.textBtn2 {
+  margin-top: 2px;
+}
+
+.loginBtn:hover {
+  background-color: rgba(52, 52, 223, 0.144);
+}
+
+.signUpBtn:hover {
+  background-color: rgba(55, 55, 226, 0.719);
+}
+
+.menuBar {
+  background-color: #1d439b;
+  margin-left: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #1d439b;
+  height: 10px;
+  margin-top: 10px;
+}
+
+.containerContent{
+  border-bottom-color: #ebebeb;
+  border-left-color: #ebebeb;
+  border-right-color: #ebebeb;
+  border-top-color: #ebebeb;
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 20px;
+  
+}
+
+.welcomeText {
+  margin-top: -17px
+}
