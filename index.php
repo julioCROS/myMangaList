@@ -9,7 +9,6 @@
 
 
 <body>
-  <div class="horizontalSpace"></div>
   <div class="body">
     <div class="menuTop">
       <div class="title">MyMangaList</div>
@@ -28,7 +27,7 @@
       <p>
         <?php
         if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
-          echo "<p style='color:red;'>" . "teste" . "</p>";
+          echo "<p style='color:red;'>" . "Welcome $username to MyMangaList.net!" . "</p>";
         } else {
           echo "<p style='color:black;
           font-size: 16px; 
@@ -46,10 +45,30 @@
         ?>
       </p>
     </div>
-        AQUI VAI O CONTEÚDO DA PAGINA INICIAL.
+    <?php
+    if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
+      echo "<p style='color:red;'>" . "Welcome $username" . "</p>";
+    } else {
+      echo "<p style='color:black;
+          font-size: 40px;
+          text-align: center;
+          padding: 5px 9px; 
+          font-weight: 30;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;'>" . "Please Log In to see the web-page." . "</p>";
+      echo "<p style='color:black;
+          font-size: 20px;
+          text-align: center;
+          margin-top: -30px;
+          font-weight: 30;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;'>" . "You can sign-up if you don't have an account, it's simple." . "</p>";
+    }
+    ?>
   </div>
-  <div class="horizontalSpace"></div>
 </body>
+
+<footer>
+
+</footer>
 
 
 </html>
