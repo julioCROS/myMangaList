@@ -12,12 +12,12 @@
   <div class="body">
     <div class="content">
       <div class="menuTop">
-        <div class="title">MyMangaList</div>
+        <div class="title"><a href="/index.php" style="color: #1d439b; text-decoration: none">MyMangaList</a></div>
         <div class="loginBtn"><strong>
-            <div class="textBtn1"><a href="/login.html" style="color: #1d439b; text-decoration: none">Login</a></div>
+            <div class="textBtn1"><a href="/login.php" style="color: #1d439b; text-decoration: none">Login</a></div>
           </strong></div>
         <div class="signUpBtn"><strong>
-            <div class="textBtn2"><a href="/sign-up.html" style="color:white; text-decoration: none">Sign Up</a>
+            <div class="textBtn2"><a href="/sign-up.php" style="color:white; text-decoration: none">Sign Up</a>
           </strong></div>
       </div>
     </div>
